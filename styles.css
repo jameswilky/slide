@@ -151,6 +151,7 @@ div[type="moduleBody"] a:hover {
     border: none;
     border-top: 2px solid rgba(0, 0, 0, 0.15);
     margin: 0 20px 20px 20px;
+    grid-template-columns: 1fr;
   }
 }
 div[type="subModule"] {
