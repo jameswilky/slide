@@ -59,7 +59,7 @@ body {
 }
 main {
   position: relative;
-  top: 120px;
+  top: 100px;
 }
 section[type="textContainer"] {
   line-height: 1.5rem;
