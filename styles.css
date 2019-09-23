@@ -64,10 +64,17 @@ main {
 section[type="textContainer"] {
   line-height: 1.5rem;
 }
+section[type="textContainer"] .gradientBackground {
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 section[type="textContainer"] p {
   padding: 20px;
   color: whitesmoke;
-  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
 }
 section[type="textContainer"] h2 {
   padding: 30px;
